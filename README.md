@@ -19,15 +19,18 @@ An analysis of correlation between the weather and crime records in Chicago yiel
 * Tableau online
 
 ## Data source
-* Name: Chicago crime data
-Description: This dataset reflects reported incidents of crime that occurred in the City of Chicago from 2001 to present.
-Size of data:  2GB(6209715 records) 6225789 now
+* Name: Chicago crime data  
 
-* Name: Weather data 
+Description: This dataset reflects reported incidents of crime that occurred in the City of Chicago from 2001 to present.
+Size of data:  3GB(6209715 records)
+
+* Name: Weather data   
+
 Description: The weather data of Chicago in one observing station. 
 Size of data:  300MB(210000 records)
 
-* Name: storm events records
+* Name: storm events records  
+
 Description: The severe weather detail in 2001 - 2015
 Size of data: 200MB (180000 records)
 
