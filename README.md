@@ -6,35 +6,37 @@ Author: Yun Gao, Changyuan Li, Gulin Fu
  
 ## Description
 An analysis of correlation between the weather and crime records in Chicago yielded strong evidence that weather has a positive effect on most types of crime. The analysis is based on weather data and crime data in Chicago from 2001 to 2015. Also, we identify the effect of the storm event on crime rate. To parse the big data of the crime record, Hadoop is used in this project. The result of crime rate in diverse weather conditions is presented the by charts.
-![MacDown Screenshot](https://github.com/NYU-CS6313-Fall16/Reddit-Threads-18/blob/master/screenshot.png)
+![MacDown Screenshot](https://github.com/gy26/Weather-and-Crime/blob/master/Sheet%202%20(2).png)
 
 ## The techniques we used for the project
 ### Techniques for parsing the data 
-* Java 
+* Java
 * Hadoop Mapreduce
+* Impala
+* NYU HPC
 
 ### Techniques for visualizing the data 
-* Javascript
-* D3
+* Tableau online
 
-## Code structure 
-### Data:
-* data.csv
-* people.csv
-* duration.csv
-* email.csv
+## Data source
+* Name: Chicago crime data
+Description: This dataset reflects reported incidents of crime that occurred in the City of Chicago from 2001 to present.
+Size of data:  2GB(6209715 records) 6225789 now
 
-### Webiste
-* index.html(Index of the website)
-* People.html (show the number of threads distribution on number of people)
-* Email.html (show the number of threads distribution on number of emails)
-* Timeseries.js(show the time distribution of the e-mail)
+* Name: Weather data 
+Description: The weather data of Chicago in one observing station. 
+Size of data:  300MB(210000 records)
+
+* Name: storm events records
+Description: The severe weather detail in 2001 - 2015
+Size of data: 200MB (180000 records)
 
 
-##Links 
-* Demo link: https://clementxia.github.io/InfoProject/
-* Video link: https://youtu.be/MFkdispIXSM
-* Report: https://github.com/NYU-CS6313-Fall16/Reddit-Threads-18/blob/master/Group18EmailThreadProjectReport.pdf
+
+
+## Report
+
+
 
 
 
